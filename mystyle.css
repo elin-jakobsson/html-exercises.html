@@ -208,16 +208,38 @@ article#main-col{
 #exercise-folder{
   min-height: 400px;
   background-color: white;
-  text-align: center;
+  text-align: left;
   color: black;
 }
+#exercise-folder a{
+  text-decoration: none;
+  font-family: verdana, sans-serif;
+  font-weight: lighter;
+  color: gray;
+}
+#exercise-folder .info-block{
+  padding: 5px 5px 5px 0;
+}
+#exercise-folder ul{
+  float: left;
+  line-height: 2;
+}
+#exercise-folder li{
+  padding: 5px;
+  list-style-type: none;
+}
+#exercise-folder li:hover, #exercise-folder a:hover{
+ font-weight: bold;
+ text-decoration: underline;
+}
 #exercise-folder h1{
-  margin-top: 20px;
-  margin-bottom: 10px;
+padding: 0px;
+margin: 0 0 20px 0;
 }
 #exercise-folder img{
-  width: 170px;
-  margin-top: 100px;
+  width: 70px;
+  margin-top: 20px;
+  padding: 0;
 }
 /*FOOTER*/
 footer{
